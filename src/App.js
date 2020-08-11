@@ -20,8 +20,8 @@ class Game extends Component{
   }
 
   decidewinner = () => {
-      Playerone = this.state.playerOne
-      Playertwo = this.state.playerTwo
+      let Playerone = this.state.playerOne
+      let Playertwo = this.state.playerTwo
 
     if(Playerone === Playertwo){
       return "Its a Tie!"
